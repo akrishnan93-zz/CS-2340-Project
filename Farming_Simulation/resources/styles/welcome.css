@@ -1,0 +1,43 @@
+.background {
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+}
+
+.button-big {
+    -fx-font-family: Helvetica;
+    -fx-background-color: blanchedalmond;
+    -fx-alignment: center;
+    -fx-min-width: 200;
+    -fx-min-height: 100;
+
+    -fx-text-fill: black;
+    -fx-font-size: 70;
+    -fx-font-weight: bold;
+}
+
+.button-big:hover {
+    -fx-background-color: peachpuff;
+}
+.button-big:pressed {
+    -fx-background-color: burlywood;
+}
+
+.hbox {
+    -fx-alignment: center;
+    -fx-spacing: 200px;
+}
+
+.label-title {
+    -fx-font-family: Helvetica;
+    -fx-text-fill: white;
+    -fx-font-size: 70;
+    -fx-font-weight: bold;
+}
+
+.end-game-label-title {
+    -fx-font-family: Helvetica;
+    -fx-text-fill: white;
+    -fx-font-size: 45;
+    -fx-word-wrap: break-word;
+    -fx-font-weight: bold;
+}

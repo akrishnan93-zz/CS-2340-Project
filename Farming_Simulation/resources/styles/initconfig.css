@@ -1,0 +1,64 @@
+.background {
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: cover;
+}
+
+.text {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.radio-text {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-max-width: 350px;
+}
+
+.text-warning {
+    -fx-font-family: Helvetica;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-fill: red;
+}
+
+.button-big {
+    -fx-font-family: Helvetica;
+    -fx-background-color: blanchedalmond;
+    -fx-alignment: center;
+    -fx-min-width: 200;
+    -fx-min-height: 50;
+
+    -fx-text-fill: black;
+    -fx-font-size: 70px;
+    -fx-font-weight: bold;
+}
+
+.button-big:hover {
+    -fx-background-color: peachpuff;
+}
+.button-big:pressed {
+    -fx-background-color: burlywood;
+}
+
+.hbox {
+    -fx-alignment: center;
+    -fx-spacing: 25px;
+}
+
+.vbox {
+    -fx-alignment: center;
+    -fx-spacing: 75px;
+}
+
+.grid {
+    -fx-alignment: center;
+    -fx-hgap: 25px;
+    -fx-vgap: 50px;
+}
